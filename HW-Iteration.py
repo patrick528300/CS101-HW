@@ -86,7 +86,7 @@ def is_prime(x):
     >>> is_prime(1001)
     True
     """
-    assert x > 0, "only receive positive numbers"
+    assert x >= 0, "only receive positive numbers"
     _______
     _______
     _______
