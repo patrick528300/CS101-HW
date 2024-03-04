@@ -61,7 +61,7 @@ def collatz(x):
     find how many steps are needed to narrow down the number to 1 in a collatz conjecture using iteration
 
     >>> collatz(1)
-    1
+    0
     >>> collatz(100)
     25
     """
@@ -82,9 +82,9 @@ def is_prime(x):
     >>> is_prime(0)
     False
     >>> is_prime(103)
-    False
-    >>> is_prime(1001)
     True
+    >>> is_prime(1001)
+    False
     """
     assert x >= 0, "only receive positive numbers"
     _______
